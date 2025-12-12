@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static Clob clob() Get the CLOB API client for trading operations
  * @method static void auth(?string $privateKey = null, int $nonce = 0) Setup CLOB authentication using private key
  *
- * @see \Danielgnh\PolymarketPhp\Client
+ * @see Client
  */
 class Polymarket extends Facade
 {
